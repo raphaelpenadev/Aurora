@@ -1,19 +1,4 @@
-<?php
-require_once(__DIR__ . '/header.php');
-?>
-<nav>
-  <a href="#topo">Aurora</a>
-  <ul>
-    <li><a href="#sobre">Sobre</a></li>
-    <li><a href="#servicos">Serviços</a></li>
-    <li><a href="#galeria">Galeria</a></li>
-    <li><a href="#contato">Contato</a></li>
-    <li><a href="#sobre">Sobre</a></li>
-  </ul>
-</nav>
-
-<header id="topo">
-  <h1>Loja de Tapetes</h1>
+<section id="topo">
   <p>Os tapetes artesanais são verdadeiras obras de arte que trazem consigo uma rica tradição cultural e artesanal.
     Feitos
     com habilidade e paciência, esses tapetes são produzidos à mão por artesãos talentosos em várias partes do mundo.
@@ -27,28 +12,37 @@ require_once(__DIR__ . '/header.php');
     cada fio de um tapete artesanal carrega consigo a dedicação e a criatividade de quem o produziu. Ao investir em um
     tapete artesanal, não apenas se adquire uma peça de grande valor estético, mas também se apoia a preservação de
     tradições culturais e a sustentabilidade de comunidades ao redor do mundo.</p>
-</header>
 
-<section id="sobre">
-  <h2>Sobre a Aurora</h2>
-  <p>Bem-vindo à Aurora, o seu destino de eleição para descobrir uma gama de produtos excepcionais que unem elegância,
-    qualidade e funcionalidade. Na Aurora, nossa missão é proporcionar uma experiência de compra única, onde a estética
-    encontra a utilidade, e a qualidade se junta à inovação.</p>
-  <h2>A Nossa História</h2>
-  <p>Fundada com paixão e visão, a Aurora surgiu da convicção de que os produtos que usamos diariamente podem ser muito
-    mais do que simples objetos. Desde o início, comprometemo-nos a reunir uma seleção cuidadosa de produtos que reflitam
-    o nosso compromisso com o design inspirador e a durabilidade. Cada item na nossa loja foi escolhido a dedo para
-    enriquecer a sua vida de maneiras que vão além do óbvio.</p>
-  <h2>Nossa Promessa</h2>
-  <p>Na Aurora, o nosso compromisso é fornecer a você não apenas produtos, mas uma experiência de compra que inspira e
-    eleva. Valorizamos cada cliente e trabalhamos incansavelmente para atender às suas expectativas. Acreditamos que a
-    qualidade deve andar de mãos dadas com a acessibilidade e o respeito ao meio ambiente. Estamos empenhados em crescer
-    e evoluir continuamente, oferecendo-lhe sempre o melhor em termos de estilo, funcionalidade e responsabilidade
-    social.</p>
   <p>Obrigado por escolher a Aurora como seu destino de compras. Estamos entusiasmados por fazer parte da sua jornada, e
     esperamos que você desfrute de cada visita à nossa loja tanto quanto nós gostamos de tê-lo como nosso cliente.
     Junte-se a nós enquanto exploramos o belo e o funcional, e juntos, vamos iluminar seu dia a dia.</p>
 </section>
+<a href="#servicos" class='botao'>Ver Mais</a>
+
+<section id="sobre">
+  <div class="sobre-aurora">
+    <h2>Sobre a Aurora</h2>
+    <p>Bem-vindo à Aurora, o seu destino de eleição para descobrir uma gama de produtos excepcionais que unem elegância,
+      qualidade e funcionalidade. Na Aurora, nossa missão é proporcionar uma experiência de compra única, onde a estética
+      encontra a utilidade, e a qualidade se junta à inovação.</p>
+  </div>
+  <div class="historia-aurora">
+    <h2>A Nossa História</h2>
+    <p>Fundada com paixão e visão, a Aurora surgiu da convicção de que os produtos que usamos diariamente podem ser muito
+      mais do que simples objetos. Desde o início, comprometemo-nos a reunir uma seleção cuidadosa de produtos que reflitam
+      o nosso compromisso com o design inspirador e a durabilidade. Cada item na nossa loja foi escolhido a dedo para
+      enriquecer a sua vida de maneiras que vão além do óbvio.</p>
+  </div>
+  <div class="promessa-aurora">
+    <h2>Nossa Promessa</h2>
+    <p>Na Aurora, o nosso compromisso é fornecer a você não apenas produtos, mas uma experiência de compra que inspira e
+      eleva. Valorizamos cada cliente e trabalhamos incansavelmente para atender às suas expectativas. Acreditamos que a
+      qualidade deve andar de mãos dadas com a acessibilidade e o respeito ao meio ambiente. Estamos empenhados em crescer
+      e evoluir continuamente, oferecendo-lhe sempre o melhor em termos de estilo, funcionalidade e responsabilidade
+      social.</p>
+  </div>
+</section>
+<a href="#contatos" class='botao'>Contacte Agora!</a>
 
 <section id="servicos">
   <h2>Serviços</h2>
@@ -101,6 +95,3 @@ require_once(__DIR__ . '/header.php');
   </div>
 
 </section>
-<?php
-require_once(__DIR__ . '/footer.php');
-?>
