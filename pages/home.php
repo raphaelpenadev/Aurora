@@ -74,12 +74,12 @@
 
 <h2 class="topico">Galeria</h2>
 <section id="galeria">
-  <img src="imgs/img1.jpg" alt="primeira">
-  <img src="imgs/img2.jpg" alt="segunda">
-  <img src="imgs/img3.jpg" alt="terceira">
-  <img src="imgs/img4.jpg" alt="quarta">
-  <img src="imgs/img5.jpg" alt="quinta">
-  <img src="imgs/img6.jpg" alt="sexta">
+  <img src="imgs/img1.jpg" alt="primeira" id="img-modal">
+  <img src="imgs/img2.jpg" alt="segunda" id="img-modal">
+  <img src="imgs/img3.jpg" alt="terceira" id="img-modal">
+  <img src="imgs/img4.jpg" alt="quarta" id="img-modal">
+  <img src="imgs/img5.jpg" alt="quinta" id="img-modal">
+  <img src="imgs/img6.jpg" alt="sexta" id="img-modal">
 </section>
 
 <h2 class="topico">Fale conosco</h2>
@@ -94,3 +94,9 @@
   </div>
 
 </section>
+
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img id="img01" class="modal-content">
+  <div id="caption"></div>
+</div>

@@ -10,6 +10,7 @@
  <link rel="stylesheet" type="text/css" href='<?= $BASE_URL ?>css/normalize.css'>
  <link rel="preconnect" href="https://fonts.googleapis.com">
  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <script src='<?= $BASE_URL ?>scripts/script.js'></script>
 </head>
 
 <body>
