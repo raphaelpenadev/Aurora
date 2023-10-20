@@ -1,5 +1,6 @@
 <footer>
- <a href="#topo">Voltar</a>
+ <p>Aurora © Todos os Direitos Reservados</p>
+ <a href="#topo" class="to-top">^</a>
 </footer>
 </body>
 

@@ -44,8 +44,8 @@
 </section>
 <a href="#contatos" class='botao'>Contacte Agora!</a>
 
+<h2 class="topico">Serviços</h2>
 <section id="servicos">
-  <h2>Serviços</h2>
   <div>
     <img src="imgs/icons/icon-calendario.png" alt="calendario">
     <h3>Prazos</h3>
@@ -72,8 +72,8 @@
   </div>
 </section>
 
+<h2 class="topico">Galeria</h2>
 <section id="galeria">
-  <h2>Galeria</h2>
   <img src="imgs/img1.jpg" alt="primeira">
   <img src="imgs/img2.jpg" alt="segunda">
   <img src="imgs/img3.jpg" alt="terceira">
@@ -82,16 +82,15 @@
   <img src="imgs/img6.jpg" alt="sexta">
 </section>
 
+<h2 class="topico">Fale conosco</h2>
 <section id="contato">
-  <h2>Fale conosco</h2>
-  <p>Vem falar com a gente</p>
   <div>
     <img src="imgs/icons/icon-phone.png" alt="telefone">
     <p><a href="tel:91999999999">(91) 99999-9999</a></p>
   </div>
   <div>
     <img src="imgs/icons/icon-mail.png" alt="email">
-    <p><a href="mailto:contato@aurora.com">(91) 99999-9999</a></p>
+    <p><a href="mailto:contato@aurora.com">contato@aurora.com</a></p>
   </div>
 
 </section>
